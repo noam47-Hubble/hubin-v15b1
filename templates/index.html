@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HUBIN</title>
+<meta name="theme-color" content="#050b1a">
+<link rel="manifest" href="/static/manifest.json">
+<link rel="icon" href="/static/icons/icon-192.png">
+<link rel="apple-touch-icon" href="/static/icons/apple-touch-icon.png">
+<link rel="stylesheet" href="/static/style.css?v={{ v }}">
+<link rel="stylesheet" href="/static/theme.css?v={{ v }}">
+<link rel="stylesheet" href="/static/vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="/static/hub15b.css?v={{ v }}">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap">
+<script>try{if(localStorage.getItem("hubble_theme")==="light")document.documentElement.classList.add("t-light-pre")}catch(e){}</script>
+</head>
+<body>
+<script>if(document.documentElement.classList.contains("t-light-pre"))document.body.classList.add("t-light")</script>
+<div class="bg-photo"></div>
+<div class="bg-veil"></div>
+<div id="app"></div>
+<div class="toast" id="toast"></div>
+<script src="/static/vendor/socket.io.min.js"></script>
+<script src="/static/vendor/qrcode.js"></script>
+<script src="/static/vendor/leaflet/leaflet.js"></script>
+<script src="/static/js/core.js?v={{ v }}"></script>
+<script src="/static/js/settings.js?v={{ v }}"></script>
+<script src="/static/js/login.js?v={{ v }}"></script>
+<script src="/static/js/home.js?v={{ v }}"></script>
+<script src="/static/js/cards.js?v={{ v }}"></script>
+<script src="/static/js/share.js?v={{ v }}"></script>
+<script src="/static/js/hubcard.js?v={{ v }}"></script>
+<script src="/static/js/setup.js?v={{ v }}"></script>
+<script src="/static/js/hub.js?v={{ v }}"></script>
+<script src="/static/js/manage.js?v={{ v }}"></script>
+<script src="/static/js/messages.js?v={{ v }}"></script>
+<script src="/static/js/contacts.js?v={{ v }}"></script>
+<script>H.boot();</script>
+</body>
+</html>
